@@ -1,0 +1,7 @@
+vcs
+*.xml
+*.iml
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
