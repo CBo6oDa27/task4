@@ -1,3 +1,8 @@
 def make_upper_word(word):
-    """Функция возвращает слово в верхнем регистре"""
+    """Возвращает слово заглавными буквами"""
     return  word.upper()
+
+def capitalize_words(words):
+    """Изменяет первые буквы слов на заглавные"""
+    capitalized_words = ' '.join(word.capitalize() for word in words.split())
+    return capitalized_words
